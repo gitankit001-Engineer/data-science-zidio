@@ -1,6 +1,6 @@
 # data-science-zidio
 # STOCK ANALYSIS 
- ============================================================
+ 
 🚀 ULTIMATE STOCK ANALYZER
 ============================================================
 📋 STOCK CATEGORIES EXAMPLES
