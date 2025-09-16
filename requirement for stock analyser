@@ -1,0 +1,52 @@
+✅ Ultimate Stock Analyzer - Requirements
+🧱 1️⃣ Python Version
+
+Python 3.7 or above (Recommended: Python 3.10)
+
+📚 2️⃣ Python Libraries (Install via pip)
+pip install yfinance pandas matplotlib numpy
+
+🗂️ 3️⃣ File Structure Example
+ultimate_stock_analyzer/
+│
+├── ultimate_stock_analyzer.py    ← (Your main script file)
+│
+├── other files (optional)
+
+✅ 4️⃣ Internet Connection Required
+
+✅ Data will be fetched live from Yahoo Finance (using yfinance library).
+
+Make sure system is connected to the internet while running the program.
+
+🚀 5️⃣ How It Works
+
+User provides stock symbol (e.g., RELIANCE.NS, AAPL, ^NSEI).
+
+User provides time period (like 1M, 1Y, MAX).
+
+Data downloaded via yfinance → Analyzed → Professional charts generated (price, volume, returns, volatility, support/resistance, correlation heatmap).
+
+Data not stored permanently, shown during execution.
+
+✅ 6️⃣ Optional (Examples of Symbols You Can Try)
+Category	Example Symbols
+Indian Stocks	RELIANCE.NS, TCS.NS
+US Stocks	AAPL, TSLA, MSFT
+Indian Indices	^NSEI, ^BSESN, ^NSEBANK
+Global Indices	^GSPC, ^DJI, ^IXIC
+ETFs	GOLDBEES.NS, SPY, QQQ
+Commodities	GC=F (Gold), SI=F (Silver)
+Crypto	BTC-USD, ETH-USD, DOGE-USD
+⚡️ 7️⃣ Run Command
+python ultimate_stock_analyzer.py
+
+✅ 8️⃣ Final Notes
+
+No external dataset required, live data fetching.
+
+Make sure matplotlib can display plots (GUI environment needed).
+
+Internet is mandatory during execution.
+
+Optional: Run inside a virtual environment for isolation.
